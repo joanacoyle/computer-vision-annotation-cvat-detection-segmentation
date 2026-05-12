@@ -2,8 +2,4 @@ This project demonstrates computer vision annotation workflows using CVAT for ob
 I began the project using the Segment Anything Model (SAM) to generate segmentation masks for vehicles. I then manually refined the polygon masks, corrected inaccurate edges, and added annotations for objects missed by the model to improve annotation precision and consistency.
 For pedestrians, I applied bounding box annotations manually and with the assistance of YOLO-based detection tools to improve workflow efficiency and annotation quality.
 Additional scene elements, including buses and selected buildings, were annotated when visibility and object boundaries were sufficiently clear. More ambiguous or poorly defined objects, such as heavily occluded motorcycles or unclear background structures, were intentionally excluded in order to prioritize dataset quality, consistency, and annotation reliability over annotation quantity.
-<img width="753" height="755" alt="computer-vision-annotation-cvat-detection-segmentation 4" src="https://github.com/user-attachments/assets/b06bca32-a22d-45f0-8a94-0c1877e99e2a" />
-<img width="754" height="606" alt="computer-vision-annotation-cvat-detection-segmentation 3" src="https://github.com/user-attachments/assets/6f134942-9041-4ebd-b4dd-99cbbd14cc02" />
-<img width="754" height="753" alt="computer-vision-annotation-cvat-detection-segmentation 2" src="https://github.com/user-attachments/assets/f71f2871-97d5-478b-9fcb-c608bd26f31c" />
-<img width="756" height="756" alt="computer-vision-annotation-cvat-detection-segmentation 1" src="https://github.com/user-attachments/assets/d6c5eb37-36ba-4839-a63a-d3e846e6f101" />
-<img width="468" height="235" alt="image" src="https://github.com/user-attachments/assets/bdb9cd8f-cbca-44ba-8f88-a4672e4e4e6f" />
+
