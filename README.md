@@ -1,2 +1,5 @@
-# computer-vision-annotation-cvat-detection-segmentation
-Computer vision annotation project using CVAT for semantic segmentation and object detection with SAM- and YOLO-assisted workflows.
+This project demonstrates computer vision annotation workflows using CVAT for object detection and semantic segmentation in urban traffic scenes.
+I began the project using the Segment Anything Model (SAM) to generate segmentation masks for vehicles. I then manually refined the polygon masks, corrected inaccurate edges, and added annotations for objects missed by the model to improve annotation precision and consistency.
+For pedestrians, I applied bounding box annotations manually and with the assistance of YOLO-based detection tools to improve workflow efficiency and annotation quality.
+Additional scene elements, including buses and selected buildings, were annotated when visibility and object boundaries were sufficiently clear. More ambiguous or poorly defined objects, such as heavily occluded motorcycles or unclear background structures, were intentionally excluded in order to prioritize dataset quality, consistency, and annotation reliability over annotation quantity.
+<img width="468" height="235" alt="image" src="https://github.com/user-attachments/assets/bdb9cd8f-cbca-44ba-8f88-a4672e4e4e6f" />
